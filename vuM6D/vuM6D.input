@@ -1,0 +1,46 @@
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+! This is the input file of vuM6D
+!
+! 2016.10.17
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+##Control_variables
+avenum=2         
+plotstep=1
+sattime=0
+Intermit_Plot=0          ;(1 for output intermit&average ON; 0 for OFF )
+overplot_log=0           ;(0 for normal;1 for ylog; 2 for xlog and ylog)
+Az=-60                  ;(70 ky; 330 kx in front)
+Ax=35
+ix1=0                 
+ix2=0            
+Switch_sat=1      ;(1 for ON means the ave_time given by saturated time; 0 for OFF. in colorfulplot)
+quicktrigger=2
+jump=1
+control=0
+k=6
+p=6
+
+
+##Range_control
+Omega_min=0.01                  (0 for xmin=min(x); >0 for xmin=Omega_min)
+Omega_max=60                    (0 for xmax=max(x); >0 for xmax=Omega_max)
+Phi_logmin=0.0001                 (for 3D log plot of |Phi|)
+Chi_logmin=0.000001               (for 3D log plot of |Chi|)
+OMGpoint=10
+freqPer=0.2
+begintime=105  
+Nk=3
+
+
+##Main_plots_name
+250
+7
+density vs time
+gamma_r vs time
+omega vs time
+den_mode vs time
+phi_mode vs time
+den_mode vs theta
+den_mode vs r
+
