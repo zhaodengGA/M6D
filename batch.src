@@ -1,0 +1,11 @@
+#$ -N current
+#$ -o batch.out
+#$ -e batch.err
+#$ -pe mpi 24
+#$ -S /bin/bash
+#$ -V
+#$ -q all.q
+#$ -cwd
+
+mpirun -np 24 -env MV2_ENABLE_AFFINITY 0 ./M6D_driver
+
