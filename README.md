@@ -1,5 +1,6 @@
-#                                    M6D <br>
+# M6D <br>
 
+<br>
 M6D is a project name, which contains a Kinetic fluid moments model for a magnetized plasma with collisions and the corresponding numerical simulation codes. <br><br>
 
 A novel method aimed at a kinetic moments closure for a magnetized plasma with collisions is proposed. The velocity distribution function for each species is expanded in 8 Gaussian Radial Basis Functions (GRBFs) which are essentially drifted Maxwellians at eight representative 3D-velocity points of drift. The vector of 8 fluid moments (for particle density, 3 particle fluxes, total energy density, and 3 energy fluxes) has an  8x8 analytic linear matrix relation to the vector of 8 GRBF density weighs in 3D-real space. The 8 fluid moments with sources for each species are advanced in time while the 8 GRBF weighs are determined from the 8x8 inverse matrix.  <br><br>
